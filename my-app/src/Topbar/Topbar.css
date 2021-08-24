@@ -1,0 +1,63 @@
+.top-bar {
+  background-color: black;
+}
+.topbar-media-icon {
+  color: white;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+.topbar-media-icon:hover {
+  color: red;
+}
+.top-bar-link:hover {
+  color: red;
+}
+
+.topbar-text {
+  color: white;
+}
+.top-bar-link {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  transition: all 0.5s ease;
+}
+.top-bar-icon {
+  color: brown;
+}
+.top-bar-icon2 {
+  color: brown;
+  display: inline-block;
+}
+
+.top-bar1 {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .div-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .topbar-text {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .top-bar-link {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  .top-bar-icon {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .top-bar-icon2 {
+    font-size: 12px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  .div-2 {
+    margin: 20px 50px 0 0;
+  }
+}

@@ -1,0 +1,42 @@
+.food {
+  width: 100%;
+  height: 180vh;
+}
+.img-frame {
+  max-width: auto;
+  overflow: hidden;
+  max-height: 100%;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.img-food {
+  max-width: 100%;
+  height: 80vh;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.col-sm-12 .img-food {
+  width: 100%;
+}
+
+.img-food:hover {
+  transform: rotate(10deg) scale(1.2);
+}
+@media screen and (max-width: 768px) {
+  .food {
+    height: 184vh;
+  }
+  .img-frame {
+    max-width: 94%;
+    overflow: hidden;
+    max-height: 40vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 12px;
+  }
+  .img-food {
+    max-width: 100%;
+    height: 60vh;
+    cursor: pointer;
+  }
+}

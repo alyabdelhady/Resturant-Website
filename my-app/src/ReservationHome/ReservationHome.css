@@ -1,0 +1,125 @@
+.parent-reserve {
+  position: relative;
+  width: 100%;
+  height: 160vh;
+}
+.reserve-home {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../images/55.jpg");
+}
+.reserve-head {
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(9, 9, 9, 0.9);
+}
+
+.reserve-partition {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+
+.h-reserve {
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  color: white;
+  font-size: 90px;
+}
+
+.reserve-email,
+.reserve-date {
+  width: 90%;
+  padding: 10px 0 10px 0;
+  background-color: black;
+  color: white;
+}
+.reserve-person,
+.reserve-time {
+  width: 90%;
+  padding: 10px 0 10px 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.reserve span {
+  color: red;
+}
+.reserve-textarea {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  top: 46%;
+  height: 30%;
+  background-color: black;
+  color: white;
+}
+.h-massage {
+  position: absolute;
+  left: 11%;
+  top: 40%;
+}
+.reserve-time option {
+  padding: 10px;
+}
+
+.reserve-button {
+  position: absolute;
+  left: 10%;
+  padding: 6px 35px 6px 35px;
+  top: 80%;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  transition: all 0.5s ease;
+}
+.reserve-button:hover {
+  color: red;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .parent-reserve {
+    height: 190vh;
+  }
+  .h-reserve {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    color: white;
+    font-size: 40px;
+  }
+  .reserve-partition {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    position: relative;
+    top: 5%;
+  }
+
+  .col-xs-12 {
+    padding: 10px 0 10px 0;
+  }
+  .reserve-textarea {
+    position: absolute;
+    left: 9%;
+    width: 85%;
+    top: 106%;
+    height: 30%;
+  }
+  .h-massage {
+    position: absolute;
+    left: 42%;
+    top: 98%;
+  }
+  .reserve-button {
+    position: absolute;
+    left: 10%;
+
+    top: 142%;
+  }
+}

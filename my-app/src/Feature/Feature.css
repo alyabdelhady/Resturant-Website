@@ -1,0 +1,40 @@
+.feature {
+  height: 100vh;
+  text-align: center;
+  background-color: rgba(241, 241, 241, 0.822);
+}
+
+.img-feature {
+  width: 120px;
+  height: 120px;
+  margin: 50px 0 20px 0;
+}
+.feature-part {
+  position: absolute;
+  margin-top: 150px;
+}
+.col-md-6 .img-feature {
+  width: 100px;
+  height: 75px;
+  margin: 20px 0 10px 0;
+}
+@media screen and (max-width: 768px) {
+  .img-feature {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0 20px 0;
+  }
+  .feature-part {
+    position: absolute;
+    margin-top: 8%;
+  }
+  .feature {
+    height: 135vh;
+  }
+  .feature-part h3 {
+    font-size: 18px;
+  }
+  .feature-part p {
+    font-size: 12px;
+  }
+}

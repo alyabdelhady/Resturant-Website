@@ -1,0 +1,69 @@
+.parent-footer {
+  position: relative;
+  text-align: center;
+  height: 60vh;
+}
+.parent-footer .row {
+  position: absolute;
+  top: 25%;
+  left: 14%;
+}
+.p-footer {
+  position: absolute;
+  top: 180%;
+  color: gray;
+}
+.p-footer span {
+  color: red;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.p-footer span:hover {
+  color: brown;
+}
+.parent-footer a {
+  text-decoration: none;
+  color: gray;
+}
+.parent-footer input {
+  padding: 10px 0 0 0;
+  width: 80%;
+  background-color: black;
+  color: white;
+}
+.parent-footer button {
+  position: absolute;
+  top: 100%;
+  left: 44%;
+  padding: 6px 30px 6px 30px;
+  font-weight: bold;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  transition: all 0.5s ease;
+}
+.parent-footer button:hover {
+  background-color: black;
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .parent-footer {
+    height: 30vh;
+  }
+
+  .parent-footer button {
+    top: 55%;
+    left: 38%;
+  }
+  .parent-footer .row {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+  }
+  .p-footer {
+    top: 100%;
+  }
+  .footer-parts {
+    margin-bottom: 50px;
+  }
+}
